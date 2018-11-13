@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.1.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
   version "7.1.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.1.5.tgz#4170907641cf1f61508f563ece3725150cc6fe39"
   dependencies:
@@ -47,18 +47,22 @@
     child-process-promise "^2.2.1"
     uuid "^3.3.2"
 
-"@nebulario/core-render-stateful-server@1.1.2-local-ui-graph-prod":
-  version "1.1.2-local-ui-graph-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-server/-/core-render-stateful-server-1.1.2-local-ui-graph-prod.tgz#8999b5b07d47983f6d6f991959e0df99168ab164"
+"@nebulario/core-render-stateful-server@1.1.3-local-ui-graph-prod":
+  version "1.1.3-local-ui-graph-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-server/-/core-render-stateful-server-1.1.3-local-ui-graph-prod.tgz#4ff00aaa4f1e0eabaf193e0b74f3403e53a8bfef"
   dependencies:
     babel-runtime "^6.26.0"
+    lodash "^4.17.11"
 
-"@nebulario/core-render-stateful-web@1.1.2-local-ui-graph-prod":
-  version "1.1.2-local-ui-graph-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-web/-/core-render-stateful-web-1.1.2-local-ui-graph-prod.tgz#43eec40b76376553760e56c29a5397fec4d25d14"
+"@nebulario/core-render-stateful-web@1.1.3-local-ui-graph-prod":
+  version "1.1.3-local-ui-graph-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-web/-/core-render-stateful-web-1.1.3-local-ui-graph-prod.tgz#bfc888b588e194e8224c9da23a1357c2c60a74cd"
   dependencies:
     apollo-link-state "^0.4.1"
     babel-runtime "^6.26.0"
+    lodash "^4.17.11"
+    recompose "^0.30.0"
+    redux-actions "^2.6.4"
 
 "@nebulario/dll-apollo@1.1.1-local-ui-graph-prod":
   version "1.1.1-local-ui-graph-prod"
@@ -118,22 +122,23 @@
   version "1.0.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-layout/-/nodeflow-layout-1.0.0-master.tgz#f4afd03ba421904fd1cd101aeba7a59cdda4bfd2"
 
-"@nebulario/nodeflow-local-common@1.1.12-local-ui-graph-dev":
-  version "1.1.12-local-ui-graph-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.1.12-local-ui-graph-dev.tgz#3c9498029445dd29fdf62d6d1af91dfb6178396b"
+"@nebulario/nodeflow-local-common@1.1.14-local-ui-graph-dev":
+  version "1.1.14-local-ui-graph-dev"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.1.14-local-ui-graph-dev.tgz#d38621eb4b553259bc77942d11931563e5914a8f"
   dependencies:
     "@nebulario/app-lang" "1.0.10-master"
     "@nebulario/app-layout" "1.1.2-local-ui-graph-prod"
     "@nebulario/app-notify" "1.1.1-local-ui-graph-prod"
     "@nebulario/nodeflow-layout" "1.0.0-master"
     "@nebulario/repoflow-domain" "link:../../../../../../../../../../.cache/yarn/v1/npm-@nebulario/repoflow-domain"
+    performance-now "^2.1.0"
     react-bootstrap-typeahead "^3.1.3"
     uuid "^3.3.2"
     validator "^10.7.1"
 
-"@nebulario/nodeflow-local-graph@1.1.10-local-ui-graph-dev":
-  version "1.1.10-local-ui-graph-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.1.10-local-ui-graph-dev.tgz#426aab20181f7ccd310e01a8f1e4dd332fa0ddd8"
+"@nebulario/nodeflow-local-graph@1.1.13-local-ui-graph-dev":
+  version "1.1.13-local-ui-graph-dev"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.1.13-local-ui-graph-dev.tgz#5950761ff7a36515568487c53adcdbf9b40bb63c"
   dependencies:
     "@nebulario/core-logger" "1.1.2-local-ui-graph-prod"
     "@nebulario/core-node" "1.0.0-master"
@@ -149,36 +154,36 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/nodeflow-local-server@1.1.13-local-ui-graph-dev":
-  version "1.1.13-local-ui-graph-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.1.13-local-ui-graph-dev.tgz#4052cbf20c8e8ae5cc6db68649a21f5978bbc83a"
+"@nebulario/nodeflow-local-server@1.1.16-local-ui-graph-dev":
+  version "1.1.16-local-ui-graph-dev"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.1.16-local-ui-graph-dev.tgz#23d24f4b65e9413b46e89fb445abdc9ed1b1ba59"
   dependencies:
     "@nebulario/core-logger" "1.1.2-local-ui-graph-prod"
     "@nebulario/core-node" "1.0.0-master"
     "@nebulario/core-process" "1.1.2-local-ui-graph-prod"
-    "@nebulario/core-render-stateful-server" "1.1.2-local-ui-graph-prod"
+    "@nebulario/core-render-stateful-server" "1.1.3-local-ui-graph-prod"
     "@nebulario/dll-apollo" "1.1.1-local-ui-graph-prod"
     "@nebulario/dll-react" "1.1.2-local-ui-graph-prod"
     "@nebulario/dll-redux" "1.1.2-local-ui-graph-prod"
     "@nebulario/dll-utils" "1.1.1-local-ui-graph-prod"
     "@nebulario/dll-vendor" "1.1.1-local-ui-graph-prod"
-    "@nebulario/nodeflow-local-common" "1.1.12-local-ui-graph-dev"
-    "@nebulario/nodeflow-local-web" "1.1.13-local-ui-graph-dev"
+    "@nebulario/nodeflow-local-common" "1.1.14-local-ui-graph-dev"
+    "@nebulario/nodeflow-local-web" "1.1.16-local-ui-graph-dev"
     compression "^1.7.3"
 
-"@nebulario/nodeflow-local-web@1.1.13-local-ui-graph-dev":
-  version "1.1.13-local-ui-graph-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.1.13-local-ui-graph-dev.tgz#12f3edc8aaf2470eeb9a2eee1893921999728044"
+"@nebulario/nodeflow-local-web@1.1.16-local-ui-graph-dev":
+  version "1.1.16-local-ui-graph-dev"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.1.16-local-ui-graph-dev.tgz#799c45ea6783aaad9f6dac8108adde0f31f0955a"
   dependencies:
-    "@nebulario/core-render-stateful-web" "1.1.2-local-ui-graph-prod"
+    "@nebulario/core-render-stateful-web" "1.1.3-local-ui-graph-prod"
     "@nebulario/dll-apollo" "1.1.1-local-ui-graph-prod"
     "@nebulario/dll-react" "1.1.2-local-ui-graph-prod"
     "@nebulario/dll-redux" "1.1.2-local-ui-graph-prod"
     "@nebulario/dll-utils" "1.1.1-local-ui-graph-prod"
     "@nebulario/dll-vendor" "1.1.1-local-ui-graph-prod"
     "@nebulario/nodeflow-layout" "1.0.0-master"
-    "@nebulario/nodeflow-local-common" "1.1.12-local-ui-graph-dev"
-    "@nebulario/nodeflow-local-graph" "1.1.10-local-ui-graph-dev"
+    "@nebulario/nodeflow-local-common" "1.1.14-local-ui-graph-dev"
+    "@nebulario/nodeflow-local-graph" "1.1.13-local-ui-graph-dev"
 
 "@nebulario/repoflow-domain@link:../repoflow-domain":
   version "0.0.0"
@@ -987,6 +992,10 @@ path-to-regexp@^1.7.0:
   dependencies:
     isarray "0.0.1"
 
+performance-now@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+
 popper.js@^1.12.9, popper.js@^1.14.1, popper.js@^1.14.4:
   version "1.14.5"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.5.tgz#98abcce7c7c34c4ee47fcbc6b3da8af2c0a127bc"
@@ -1096,7 +1105,7 @@ react-is@^16.3.2, react-is@^16.6.0:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.1.tgz#f77b1c3d901be300abe8d58645b7a59e794e5982"
 
-react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
+react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
@@ -1225,11 +1234,22 @@ recompose@^0.26.0:
     hoist-non-react-statics "^2.3.1"
     symbol-observable "^1.0.4"
 
+recompose@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/recompose/-/recompose-0.30.0.tgz#82773641b3927e8c7d24a0d87d65aeeba18aabd0"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    change-emitter "^0.1.2"
+    fbjs "^0.8.1"
+    hoist-non-react-statics "^2.3.1"
+    react-lifecycles-compat "^3.0.2"
+    symbol-observable "^1.0.4"
+
 reduce-reducers@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/reduce-reducers/-/reduce-reducers-0.4.3.tgz#8e052618801cd8fc2714b4915adaa8937eb6d66c"
 
-redux-actions@^2.2.1:
+redux-actions@^2.2.1, redux-actions@^2.6.4:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/redux-actions/-/redux-actions-2.6.4.tgz#e1d9d7d987d274071b0134b707365d3e25ba3b26"
   dependencies:
