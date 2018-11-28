@@ -1,4 +1,4 @@
-FROM node:10.13.0-alpine
+FROM node:8.13.0-alpine
 
 RUN mkdir -p /workspace/app
 WORKDIR /workspace/app
