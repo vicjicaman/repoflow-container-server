@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-server:1.0.0-master
+    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-server:1.0.0-hoist-dev-init-dev
     env_file:
      - .env
     environment:
