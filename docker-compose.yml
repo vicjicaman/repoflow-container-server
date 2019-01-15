@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-server:1.0.0-master
+    env_file:
+     - .env
+    environment:
+     - SERVICE_PORT=5001
+     - GRAPHQL_URL=http://local-ui-graph.repoflow-container-graph.com:4001/graphql
+     - EVENTS_URL=http://local-ui-graph.repoflow-container-graph.com:4001/events
+    ports:
+     - "5001:5001"

@@ -1,0 +1,8 @@
+{
+  "name": "container",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "@nebulario/nodeflow-local-server": "1.0.0-master"
+  }
+}
