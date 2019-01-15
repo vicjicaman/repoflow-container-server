@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/nodeflow-local-server": "1.0.0-hoist-dev-init-dev"
+    "@nebulario/nodeflow-local-server": "1.0.0-hoist-dev-init-prod"
   }
 }
