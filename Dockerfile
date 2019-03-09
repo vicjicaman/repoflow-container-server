@@ -1,14 +1,16 @@
 FROM node:8.13.0-alpine
 
-RUN mkdir -p /workspace/app
-WORKDIR /workspace/app
+RUN set -xe \
+    && apk add --no-cache bash git openssh
 
-RUN chown -R node /workspace/app
-#Tssd
+RUN mkdir -p /app
+RUN chown -R node /app
+
+WORKDIR /app
+
 USER node
 
-COPY ./node_modules /workspace/app/node_modules
-COPY ./node_modules/@nebulario/nodeflow-local-server/dist/index.js /workspace/app/dist/index.js
+COPY ./node_modules /app/node_modules
 
 ENTRYPOINT ["node"]
-CMD ["dist/index.js"]
+CMD ["/app/node_modules/@nebulario/nodeflow-local-server/dist/index.js"]

@@ -5,8 +5,8 @@ services:
     env_file:
      - .env
     environment:
-     - SERVICE_PORT=5001
-     - GRAPHQL_URL=http://local-ui-graph.repoflow-container-graph.com:4001/graphql
-     - EVENTS_URL=http://local-ui-graph.repoflow-container-graph.com:4001/events
+     - SERVICE_PORT=5040
+     - GRAPHQL_URL=http://container-dependencies.repoflow-container-graph.com:4040/graphql
+     - EVENTS_URL=http://container-dependencies.repoflow-container-graph.com:4040/events
     ports:
-     - "5001:5001"
+     - "5040:5040"
