@@ -3,10 +3,6 @@ services:
   app:
     image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-server:1.10.1-master
     env_file:
-     - .env
-    environment:
-     - SERVICE_PORT=5040
-     - GRAPHQL_URL=http://container-dependencies.repoflow-container-graph.com:4040/graphql
-     - EVENTS_URL=http://container-dependencies.repoflow-container-graph.com:4040/events
+      - .env
     ports:
-     - "5040:5040"
+     - "${SERVICE_PORT}:${SERVICE_PORT}"
