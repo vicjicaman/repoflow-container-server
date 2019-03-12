@@ -3,6 +3,7 @@
 
 # production
 **/dist
+**/runtime
 **/service
 **/__generated__
 **/logs
