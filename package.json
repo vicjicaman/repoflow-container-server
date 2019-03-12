@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/nodeflow-local-server": "1.70.0-container-dependencies-prod"
+    "@nebulario/nodeflow-local-server": "1.70.2-container-dependencies-prod"
   }
 }
