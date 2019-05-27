@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/nodeflow-local-server": "1.70.0-compose-performers-prod"
+    "@nebulario/nodeflow-local-server": "1.71.2-master"
   }
 }
