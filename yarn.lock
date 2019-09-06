@@ -119,10 +119,10 @@
     popper.js "^1.12.9"
     reactstrap "^6.4.0"
 
-"@nebulario/nodeflow-local-common@1.71.1-master":
-  version "1.71.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.71.1-master.tgz#0a17f95644097c81b8c953ea51dba9940c05e1e9"
-  integrity sha512-LgOCCdAMp/g7MpRq+1VBvnQS1o2qvpb9dNFRWxvGYIuSovJVaeGX3IQNeGGhFfY8QFJeUQ1jsfoMWfqAoPhvbA==
+"@nebulario/nodeflow-local-common@1.71.4-master":
+  version "1.71.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.71.4-master.tgz#04af83373c1e8e70303068812d099fc139b0d90f"
+  integrity sha512-826vzRJW/KEhYpYL75ZlbLosfTgmJCYOMTWStGvPRX7eTW1pcAqWY3reDyIH1mm2tS4dt+/YWLzvGJ2C7cK40g==
   dependencies:
     "@nebulario/app-lang" "1.0.10-master"
     "@nebulario/app-layout" "1.70.0-master"
@@ -132,10 +132,10 @@
     uuid "^3.3.2"
     validator "^10.7.1"
 
-"@nebulario/nodeflow-local-graph@1.72.1-master":
-  version "1.72.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.1-master.tgz#05e8282a7ea7d84846b076e372acc2d1b83fd916"
-  integrity sha512-DiAqsLJSn/tmf8hal3IhyH46czCm158xrIJyvfaDlN9/tndGk3Nnmb89XEL3H7YiINvuXmb2O1LJ1hzEp9YdOA==
+"@nebulario/nodeflow-local-graph@1.72.4-master":
+  version "1.72.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.4-master.tgz#bf985aab52c76c152f6419e854b09b4f65392d51"
+  integrity sha512-pooMe7OJdkr8TdjiSsMeuYhatQoVbApQtya05SDAj+6YjFZa294qQxjM1HZ4ANdtHP9HQC4z3jzvEA9ecpDw4A==
   dependencies:
     "@nebulario/core-logger" "1.70.0-master"
     "@nebulario/core-node" "1.70.0-master"
@@ -151,10 +151,10 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/nodeflow-local-server@1.71.1-master":
-  version "1.71.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.71.1-master.tgz#6c9669b5821ce43f75c54182742e1e0eefd38f75"
-  integrity sha512-AZ7eEhmNCBV0p61+vGXp4mj7u4qdCBhPoylJrvT0Af5k9IjdN8b3Qs6dcgxRVhnBZ3oaGLJ/qIAKMdAYDTsCYg==
+"@nebulario/nodeflow-local-server@1.71.4-master":
+  version "1.71.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.71.4-master.tgz#354b2fbb8ab80b64afbe9e746fa1ea6aa6402055"
+  integrity sha512-MLaJLn5B/WQGYyD5MOCPlUdS32CuB4u3zgPdprSj3uVpiEiX7UzRAUFJg6TAzKcMnUUhRvBEw9QfhADBtcW6OA==
   dependencies:
     "@nebulario/core-logger" "1.70.0-master"
     "@nebulario/core-node" "1.70.0-master"
@@ -165,15 +165,15 @@
     "@nebulario/dll-redux" "1.70.0-master"
     "@nebulario/dll-utils" "1.70.0-master"
     "@nebulario/dll-vendor" "1.70.0-master"
-    "@nebulario/nodeflow-local-common" "1.71.1-master"
-    "@nebulario/nodeflow-local-web" "1.71.1-master"
+    "@nebulario/nodeflow-local-common" "1.71.4-master"
+    "@nebulario/nodeflow-local-web" "1.71.4-master"
     compression "^1.7.3"
     dotenv "^6.2.0"
 
-"@nebulario/nodeflow-local-web@1.71.1-master":
-  version "1.71.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.71.1-master.tgz#df34f46939edf32efd1d5a9a232f12bea988cee4"
-  integrity sha512-BbqYR6EsiNtLRn7VF3e9QliDfAYOZ7XrfOlVRVDG1u+tQ7iKT/3Tc3Nhb4vX5OMAwefsPoiuGDyfWU0ZmnuPIA==
+"@nebulario/nodeflow-local-web@1.71.4-master":
+  version "1.71.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.71.4-master.tgz#319c78f5a0c5c3f0d53ed50a71cb60b197966423"
+  integrity sha512-UDtboC1mzzqFb5FFQhC+jY/CRvPz23Teq9ogeb/+t4Ao1oAOoJYvXRVC/eGIei7JOqdJM4Y0lyePYpKct6qxKQ==
   dependencies:
     "@nebulario/core-render-stateful-web" "1.70.0-master"
     "@nebulario/dll-apollo" "1.70.0-master"
@@ -181,8 +181,8 @@
     "@nebulario/dll-redux" "1.70.0-master"
     "@nebulario/dll-utils" "1.70.0-master"
     "@nebulario/dll-vendor" "1.70.0-master"
-    "@nebulario/nodeflow-local-common" "1.71.1-master"
-    "@nebulario/nodeflow-local-graph" "1.72.1-master"
+    "@nebulario/nodeflow-local-common" "1.71.4-master"
+    "@nebulario/nodeflow-local-graph" "1.72.4-master"
 
 "@types/async@2.0.50":
   version "2.0.50"
