@@ -1,16 +1,22 @@
 FROM node:8.13.0-alpine
 
-RUN set -xe \
-    && apk add --no-cache bash git openssh
+ENV LOG_ROOT=/var/log/app
+RUN mkdir -p ${LOG_ROOT}
+RUN chown -R node ${LOG_ROOT}
 
-RUN mkdir -p /app
-RUN chown -R node /app
+ENV APP_ROOT=/env/app
+ENV APP_HOME=${APP_ROOT}/node_modules/@nebulario/nodeflow-local-server
 
-WORKDIR /app
+RUN mkdir -p ${APP_HOME}
+RUN chown -R node ${APP_HOME}
 
 USER node
 
-COPY ./node_modules /app/node_modules
+ARG CACHEBUST=1
+RUN echo "CACHE $CACHEBUST"
 
+COPY --chown=node:node ./node_modules /env/app/node_modules
+
+WORKDIR ${APP_ROOT}
 ENTRYPOINT ["node"]
-CMD ["/app/node_modules/@nebulario/nodeflow-local-server/dist/index.js"]
+CMD ["node_modules/@nebulario/nodeflow-local-server/dist/index.js"]

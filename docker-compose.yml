@@ -1,8 +1,0 @@
-version: '3'
-services:
-  app:
-    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-server:1.70.1-master
-    env_file:
-      - .env
-    ports:
-     - "${SERVICE_PORT}:${SERVICE_PORT}"
