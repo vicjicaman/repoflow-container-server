@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/nodeflow-local-server": "1.71.4-master"
+    "@nebulario/nodeflow-local-server": "1.71.9-master"
   }
 }
